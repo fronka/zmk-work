@@ -6,6 +6,9 @@
 
 #include "lily58.dtsi"
 
+&default_transform {
+	col-offset = <2>;
+};
 &kscan0 {
     col-gpios
         = <&gpio0 31 GPIO_ACTIVE_HIGH>
